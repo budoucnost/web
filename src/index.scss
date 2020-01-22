@@ -1,0 +1,16 @@
+@import './latofonts.css';
+
+$primary: #6e1646;
+$headings-color: $primary;
+$font-family-sans-serif: 'LatoWeb', 'sans-serif';
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+.hairline {
+  font-family: 'LatoWeb';
+  font-weight: normal;
+}
+
+.sidebar h2 {
+  font-family: 'LatoWeb';
+}
