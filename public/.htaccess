@@ -1,5 +1,4 @@
 Options -MultiViews
-Options +FollowSymLinks
     RewriteEngine On
 
     RewriteCond %{REQUEST_FILENAME} !-f
@@ -7,4 +6,8 @@ Options +FollowSymLinks
 
     <filesMatch "index.html">
         Header set Cache-Control "no-cache"
+    </filesMatch>
+
+    <filesMatch ".(css|js|png|woff2)$">
+	    Header set Cache-Control "max-age=31536000, public"
     </filesMatch>
