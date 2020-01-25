@@ -9,13 +9,6 @@ function Contact() {
         <a href="mailto:info@volim-budoucnost.cz">info@volim-budoucnost.cz</a>
       </p>
 
-      <h2>Telefon</h2>
-      <p className="lead">
-        <b>Filip Hausknecht:</b> <a href="tel:+420603241874">604 241 874</a>
-        <br />
-        <b>Vendula Couvreur:</b> <a href="tel:+420739509674">739 509 674</a>
-      </p>
-
       <h2>Přípravný výbor</h2>
       <ul>
         <li>Vendula Couvreur, Ostrava</li>
