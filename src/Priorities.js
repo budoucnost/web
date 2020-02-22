@@ -5,7 +5,7 @@ import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons'
 
 function Priorities({ data }) {
   return (
-    <ListGroup>
+    <ListGroup flush>
       {data.map(priority => (
         <Priority data={priority} key={priority.title} />
       ))}
@@ -20,7 +20,7 @@ function Priority({ data, className }) {
   return (
     <ListGroupItem action>
       <h3
-        className="py-3"
+        className="py-2"
         onClick={() => setOpen(!open)}
         style={{ cursor: 'pointer' }}
       >
