@@ -5,6 +5,7 @@ function SubscriptionForm() {
     <form
       method="post"
       action="https://hnuti-budoucnost.ecomailapp.cz/public/subscribe/5/ed07fd6b07ff0199fabc8509f995f058"
+      target="_blank"
     >
       <div className="bg-primary p-2 mb-2 rounded">
         <div className="form-group">

@@ -36,13 +36,25 @@ function App() {
             <h1 className="hairline">Pojďme tvořit budoucnost společně</h1>
           </Col>
           <Col sm="4">
-            <a href="https://www.facebook.com/BudoucnostCZ">
+            <a
+              href="https://www.facebook.com/BudoucnostCZ"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <FontAwesomeIcon icon={faFacebook} size="3x" className="mr-3" />
             </a>
-            <a href="https://twitter.com/Budoucnost_cz">
+            <a
+              href="https://twitter.com/Budoucnost_cz"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <FontAwesomeIcon icon={faTwitter} size="3x" className="mr-3" />
             </a>
-            <a href="https://www.instagram.com/budoucnostcz/?igshid=chd2z8pw5rna">
+            <a
+              href="https://www.instagram.com/budoucnostcz/?igshid=chd2z8pw5rna"
+              target="_bkank"
+              rel="noreferrer noopener"
+            >
               <FontAwesomeIcon icon={faInstagram} size="3x" />
             </a>
           </Col>
