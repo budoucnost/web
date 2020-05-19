@@ -48,6 +48,21 @@
 
 
 
+/**
+ * Page title is the most prominent heading on the page.
+ *
+ * Because the heading so big, it can be really noticeable if initial letters
+ * are not aligned. This is why we slightly move the first letter the heading
+ * to the left [1].
+ */
+.page-title {}
+
+  .page-title {
+    margin-left: -2.5px; /* [1] */
+  }
+
+
+
 /* Webfont: LatoLatin-Regular */@font-face {
     font-family: 'LatoLatinWeb';
     src: url('LatoLatin-Regular.eot'); /* IE9 Compat Modes */
