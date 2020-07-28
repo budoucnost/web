@@ -16,8 +16,14 @@
   RewriteCond %{HTTP_HOST} !=volim-budoucnost.cz [OR]
   RewriteCond %{HTTPS} =off
   RewriteRule .? https://volim-budoucnost.cz%{REQUEST_URI} [R=301,L]
-</IfModule>
 
-<IfModule mod_negotiation.c>
-  Options +MultiViews
+  <IfModule mod_negotiation.c>
+    Options -MultiViews
+  </IfModule>
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteCond %{HTTP_ACCEPT} \btext/html\b [NC,OR]
+  RewriteCond %{HTTP_ACCEPT} =*/* [OR]
+  RewriteCond %{HTTP_ACCEPT} =""
+  RewriteRule .? %{REQUEST_FILENAME}.html [L]
 </IfModule>
