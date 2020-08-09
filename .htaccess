@@ -17,6 +17,9 @@ AddDefaultCharset utf-8
   AddCharset utf-8 .css \
                    .js \
                    .svg
+
+  AddType text/javascript js
+  AddType image/x-icon ico
 </IfModule>
 
 <IfModule mod_rewrite.c>
