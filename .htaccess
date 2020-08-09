@@ -8,7 +8,7 @@
   <Files "*.html">
     Header set X-Frame-Options "DENY"
     Header set X-XSS-Protection "1; mode=block"
-    Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'sha256-oZVe8EDFnWpHQn2Pre/au+g/cF4IapTjPizaE7xNUic=' https://www.google-analytics.com; img-src 'self' https://www.google-analytics.com"
+    Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'sha256-oZVe8EDFnWpHQn2Pre/au+g/cF4IapTjPizaE7xNUic=' https://www.google-analytics.com; img-src 'self' https://www.google-analytics.com; frame-ancestors 'none'"
   </Files>
 </IfModule>
 
